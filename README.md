@@ -33,7 +33,7 @@ Beim Einschalten gehaltene Tasten:
 Am einfachsten:
 
 ```bash
-./build.sh          # baut und legt die .uf2 in ../dist/ ab
+./build.sh          # baut und legt die .uf2 in dist/ ab
 ./build.sh clean    # Bauordner vorher löschen
 ```
 
@@ -100,3 +100,10 @@ doc/PORT.md         was gegenüber der Vorlage geändert wurde und warum
 
 Lizenz: MIT, siehe `COPYING`. Die Schriftdaten sind aus DejaVu Sans
 gerastert (Bitstream-Vera-Lizenz, `doc/LICENSE.DejaVu`).
+
+## Herkunft und Download
+
+Teil der Sammlung für den PicoBoy Color Plus; Übersicht und
+Hardware-Referenz: [pbc-plus](https://github.com/hcl1981/pbc-plus). Die fertige Firmware
+(spout.uf2) liegt unter **Releases**. `./build.sh` baut nach `dist/`;
+Werkzeuge und SDK siehe [`docs/BAUEN.md`](docs/BAUEN.md).
